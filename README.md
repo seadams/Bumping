@@ -2,9 +2,9 @@ Bumping
 =======
 This project requires the Weka libraries.  Weka.jar (available online) should be included in Referenced Libraries.
 
-This project implements bumping (see http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.8633&rep=rep1&type=pdf) for J48 trees and consistency subset analysis.
+This project implements bumping (see http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.8633&rep=rep1&type=pdf) for J48 trees and consistency subset analysis (CSA).
 
-The project has two different files which are run separately.  Main.java implements bumping for J48 trees, and FeatureSelection.java implements bumping for consistency subset evaluation.
+The project has two different files which are separate programs.  Main.java implements bumping for J48 trees, and FeatureSelection.java implements bumping for CSA.
 
 The output of bumping with the J48 trees is a .dot file which can be converted to a .png image of the resulting tree.
 
